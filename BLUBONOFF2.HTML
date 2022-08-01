@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet"href="BLUBONOFF2.css">
+</head>
+<body>
+<h1 id="bulbdata">light on off</h1><br>
+
+
+
+<main class="lightapp">
+<figure class="lightstyle">
+<img src="bluboff.jpg" id="lightid" onclick="light()">
+</figure>
+</main>
+
+
+
+<script>
+const light = () =>{
+let bid =document.getElementById('lightid');
+if(bid.src.match('blubon'))
+{
+bid.src="bluboff.jpg";
+}
+else{
+bid.src="blubon.jpg";
+
+
+}
+
+}
+</script>
+</body>
+</html>
